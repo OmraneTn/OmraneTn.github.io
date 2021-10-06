@@ -1,14 +1,33 @@
+ body {
+     background-color: #afd275;
+ }
  .element {
-    align-items: center;
+    align-items: left;
     background-color: #afd275;
     box-shadow: 
       12px 12px 16px 0 rgba(0, 0, 0, 0.25),
       -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
     border-radius: 50px;
     display: flex;
-    height: 200px;
+    height: 1500px;
     justify-content: center;
     margin-right: 4rem;
-    width: 200px;
+    width: 1500px;
   }
   
+  .o {
+    justify-content: left;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+
+  .menu {
+    position: fixed;
+    left: 50;
+    top: 10%;
+    width: 20em;
+    margin-top: -2.5em;
+    margin-left: 2.5em;
+  }
+ 
