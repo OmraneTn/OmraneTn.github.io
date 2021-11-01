@@ -14,6 +14,9 @@
     
     
      }
+     b{
+         
+     }
     
     
     br {
@@ -52,7 +55,7 @@
             margin-top: 15px;
             color : tomato ;
             font-size: 23px ;
-            
+            align-content: center;
     align-items: center;
             
     
@@ -128,5 +131,8 @@
         box-sizing: content-box;
         height: 0;
         overflow: visible;
+    }
+    input {
+        align-items: center;
     }
    
